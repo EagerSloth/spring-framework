@@ -1,0 +1,7 @@
+logging:
+  level:
+    root: ERROR
+    com.whitewall.imageserver: DEBUG #INFO
+    org.hibernate.SQL: ERROR #TRACE
+    org.springframework.transaction.interceptor: ERROR #TRACE
+    net.spy.memcached: ERROR #INFO
